@@ -1,0 +1,42 @@
+@use 'variables' as *;
+
+.module {
+  @include flex(row, flex-start, center);
+  height: 960px;
+}
+
+.module-image {
+  img {
+    width: 505px;
+    height: 330px;
+    margin: 96px 95px 0 230px;
+  }
+}
+
+.module-title {
+  margin: 0;
+}
+
+.module-description {
+  width: 380px;
+  height: 250px;
+  margin-top: 136px;
+
+  h1 {
+    font-size: $base-size + 26;
+    font-weight: $font-bold;
+  }
+
+  button {
+    width: 128px;
+    height: 48px;
+    font-weight: $font-bold;
+    color: $color-light;
+    background-color: $color-primary;
+    border-radius: $radius;
+    border: none;
+    padding: 16px 40px;
+    margin-top: 32px;
+    cursor: pointer;
+  }
+}

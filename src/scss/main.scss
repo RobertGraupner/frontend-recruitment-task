@@ -1,0 +1,11 @@
+// normalize default styles
+@use 'partials/_normalize.scss';
+
+// variables
+@use 'partials/_variables.scss';
+
+// common styles
+@use 'partials/_global.scss';
+@use 'partials/_module.scss';
+@use 'partials/_popup.scss';
+@use 'partials/_media_queries.scss'

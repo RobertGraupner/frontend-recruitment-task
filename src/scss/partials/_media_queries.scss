@@ -1,0 +1,31 @@
+@use 'variables' as *;
+
+@media (max-width: 1440px) {
+  /* module */
+  .module-image {
+    img {
+      margin: 96px auto;
+    }
+  }
+
+  .module-description {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 929px) {
+  /* module */
+  .module {
+    @include flex(column, center, flex-start);
+  }
+
+  .module-description {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .module-image {
+    img {
+      margin: 15px auto;
+    }
+  }
+}
