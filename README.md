@@ -1,3 +1,7 @@
+## Wersja demo mojego rozwiązania [frontend-recruitment-task](https://robertgraupner.github.io/frontend-recruitment-task/)
+<br>
+<br>
+
 # Zadanie rekrutacyjne GravityGlobal na frontend developera
 
 ## Informacje wstępne
