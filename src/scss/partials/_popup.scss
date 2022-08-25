@@ -2,7 +2,7 @@
 
 .popup {
   display: flex;
-  display: none;
+  visibility: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -54,6 +54,7 @@
 }
 
 .popup-reset {
+  visibility: hidden;
   width: 128px;
   height: 48px;
   font-weight: $font-bold;
@@ -68,7 +69,7 @@
 }
 
 .overlay {
-  display: none;
+  visibility: hidden;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -76,4 +77,9 @@
   top: 0;
   background: $color-dark;
   opacity: 0.5;
+}
+
+// class to show modal and overlay
+.active {
+  visibility: visible;
 }
