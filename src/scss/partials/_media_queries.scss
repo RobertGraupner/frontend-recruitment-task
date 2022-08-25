@@ -28,4 +28,20 @@
       margin: 15px auto;
     }
   }
+
+}
+
+@media (max-width: 576px) {
+  .popup-reset {
+    @include center();
+    top: 80%;
+  }
+
+  .popup-description {
+    top: 26px;
+
+    p {
+      margin-top: 12px;
+    }
+  }
 }
